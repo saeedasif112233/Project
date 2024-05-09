@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
+import TabNav from "../Navigation/TabNav";
 
 export default function Home({ navigation }) {
   return (
@@ -10,6 +11,8 @@ export default function Home({ navigation }) {
           navigation.navigate("Welcome Screen");
         }}
       />
+
+      <TabNav />
     </View>
   );
 }
